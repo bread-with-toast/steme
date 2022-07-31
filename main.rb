@@ -379,7 +379,7 @@ def mod10()
     end
 end
 
-def mod11()
+def mod12()
     puts "---------------------------------"
     puts "Multimeters"
     puts "---------------------------------"
@@ -419,6 +419,100 @@ def mod11()
     end
 end
 
+def mod11()
+    puts "---------------------------------"
+    puts "Capacitors"
+    puts "---------------------------------"
+    puts "Capacitors are electronic gadgets used to store electrical energy."
+    sleep 4
+    puts "They are measured in farads."
+    sleep 4
+    puts "There are different types of capactitors."
+    sleep 4
+    puts "Capacitors can also be measured in micro farads."
+    sleep 4
+    puts "---------------------------------"
+    puts "Quiz Time!"
+    puts "---------------------------------"
+    puts "What do capacitors store?" 
+
+    answer1 = gets.chomp()
+
+    if answer1.downcase() == "electrical energy"
+        puts "Correct!"
+    else
+        puts "Incorrect! Capacitors store electrical energy!"
+    end
+end
+
+def quiz()
+    puts "---------------------------------"
+    puts "Quiz Time!"
+    puts "---------------------------------"
+
+    # Question 1
+
+    puts "Question 1 - What are resistors measured in?" 
+
+    answer1 = gets.chomp()
+
+    if answer1.downcase() == "ohms"
+        puts "Correct!"
+        sleep 4
+    else
+        puts "Incorrect! Resistors are measured in ohms!"
+        sleep 4
+    end
+
+    # Question 2
+
+    puts "Question 2 - Are batteries [DC] or [AC]?" 
+
+    answer2 = gets.chomp()
+
+    if answer2.downcase() == "dc"
+        puts "Correct!"
+    else
+        puts "Incorrect! The flow of current in batteries does not change!"
+    end
+
+    # Question 3
+
+    puts "Question 3 - What do capacitors store?" 
+
+    answer3 = gets.chomp()
+
+    if answer3.downcase() == "electrical energy"
+        puts "Correct!"
+    else
+        puts "Incorrect! Capacitors store electrical energy!"
+    end
+
+    # Question 4
+
+    puts "Question 2 - Are LEDs polarised [Y/N]?" 
+
+    answer4 = gets.chomp()
+
+    if answer4.downcase() == "Y"
+        puts "Correct!"
+    else
+        puts "Incorrect! LEDs usually have a GND lead and a VCC lead!"
+    end
+
+    # Question 5
+
+    puts "Question 5 - What is the formulae for calculating resistance (letters only, no spaces)?" 
+
+    answer2 = gets.chomp()
+
+    if answer2.downcase() == "r=v/i"
+        puts "Correct!"
+    else
+        puts "Incorrect! R = V / I (Resistance = Voltage / Ampere (or current)"
+    end
+end
+
 while true do
     puts "\n---------------------------------"
     puts "STEMe - The real way to learn"
@@ -452,7 +546,11 @@ while true do
         sleep 0.5
         puts "Module 10 - Using a microcontroller"
         sleep 0.5
-        puts "Module 11 (Bonus) - Using a multimeter"
+        puts "Module 11 - Capacitors"
+        sleep 0.5
+        puts "Module 12 (Bonus) - Using a multimeter"
+        sleep 0.5
+        puts "Quiz - See how much you know!"
 
         puts "\nChoose a module: "
         moduleChosen = gets.chomp.to_i()
@@ -480,6 +578,10 @@ while true do
             mod10()
         when 11
             mod11()
+        when 12
+            mod12()
+        when "Quiz"
+            quiz()
         end
     end
 end
