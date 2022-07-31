@@ -245,6 +245,60 @@ def mod7()
     end
 end
 
+def mod8()
+    puts "---------------------------------"
+    puts "Sensors"
+    puts "---------------------------------"
+    puts "Sensors take input from the world."
+    sleep 4
+    puts "We can use the input to create an output."
+    sleep 4
+    puts "Examples of sensors are photoresistors and thermistors."
+    sleep 4
+    puts "Photoresistors give back an output based on the light and thermistors give back an output based on the temperature."
+    sleep 4
+    puts "---------------------------------"
+    puts "Quiz Time!"
+    puts "---------------------------------"
+    puts "From where do sensors get input from?" 
+
+    answer1 = gets.chomp()
+
+    if answer1.downcase() == "the world"
+        puts "Correct!"
+    else
+        puts "Incorrect! Sensors take input from the world and the environment which surrounds the sensor."
+    end
+
+
+    puts "---------------------------------"
+    puts "What affects the resistance of a photoresistor?" 
+
+    answer2 = gets.chomp()
+
+    if answer2.downcase() == "light" 
+        puts "Correct!"
+        sleep 2
+    else
+        puts "Incorrect! The resistance of a photoresistor changes based upon the light."
+        sleep 4
+    end
+
+
+    puts "---------------------------------"
+    puts "Which sensor (mentioned in this module) gives back an output based upon the temperature?" 
+
+    answer3 = gets.chomp()
+
+    if answer3.downcase() == "thermistors" or answer3.downcase() == "a thermistor"
+        puts "Correct!"
+        sleep 2
+    else
+        puts "Incorrect! Thermistors give back an output based upon the temperature!"
+        sleep 4
+    end
+end
+
 while true do
     puts "\n---------------------------------"
     puts "STEMe - The real way to learn"
