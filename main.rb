@@ -51,8 +51,48 @@ def mod2()
     end
 end
 
+def mod3()
+    puts "---------------------------------"
+    puts "Resistors"
+    puts "---------------------------------"
+    puts "Resistors are components which protect electronic components."
+    sleep 4
+    puts "They are measured in ohms."
+    sleep 4
+    puts "Resistors are not polarised, which means the leads can be connected either way."
+    sleep 4
+    puts "Resistors also have colours on them which you can use to check to value of ohms."
+    sleep 4
+    puts "---------------------------------"
+    puts "Quiz Time!"
+    puts "---------------------------------"
+    puts "What are resistors measured in?" 
 
-puts "\nSTEMe - The real way to learn"
+    answer1 = gets.chomp()
+
+    if answer1.downcase() == "ohms" 
+        puts "Correct!"
+    else
+        puts "Incorrect! Resistors are measured in ohms."
+    end
+
+    puts "---------------------------------"
+    puts "Do resistors have colours on them [Y/N]?" 
+
+    answer2 = gets.chomp()
+
+    if answer2.downcase() == "y" 
+        puts "Correct!"
+        sleep 2
+    else
+        puts "Incorrect! Resistors have colours on them so you can see the value of ohms."
+        sleep 4
+    end
+end
+
+
+puts "---------------------------------"
+puts "STEMe - The real way to learn"
 puts "---------------------------------"
 puts "1) Electronics\n2) Web Design (Working on it!)\n"
 puts "---------------------------------"
