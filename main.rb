@@ -299,6 +299,126 @@ def mod8()
     end
 end
 
+def mod9()
+    puts "---------------------------------"
+    puts "Integrated Circuits"
+    puts "---------------------------------"
+    puts "There are many types of integrated circuits."
+    sleep 4
+    puts "These chips help us create electronic projects without having to make everything ourselves."
+    sleep 4
+    puts "The 555 timer is an IC that lets us blink an LED."
+    sleep 4
+    puts "ICs will usually have a datasheet with them so you can understand what they do."
+    sleep 4
+    puts "---------------------------------"
+    puts "Quiz Time!"
+    puts "---------------------------------"
+    puts "Which IC helps us flash an LED?" 
+
+    answer1 = gets.chomp()
+
+    if answer1.downcase() == "the 555 timer"
+        puts "Correct!"
+    else
+        puts "Incorrect! The 555 timer is an IC which allows us to make an LED flash as it acts as a clock."
+    end
+
+
+    puts "---------------------------------"
+    puts "Why do ICs help us [A: They don't help us!\nB: They help us because they allow us to create projects without making everything ourselves]?" 
+
+    answer2 = gets.chomp()
+
+    if answer2.downcase() == "B" 
+        puts "Correct!"
+        sleep 2
+    else
+        puts "Incorrect! ICs have circuits inside of them so we don't have to make the circuit ourselves."
+        sleep 4
+    end
+end
+
+def mod10()
+    puts "---------------------------------"
+    puts "Microcontrollers"
+    puts "---------------------------------"
+    puts "Microcontrollers allow us to make electronics projects easier by transferring most things to software."
+    sleep 4
+    puts "There are various types of microcontrollers."
+    sleep 4
+    puts "Some microcontrollers are open source so we can view all of the code for them online."
+    sleep 4
+    puts "The code for a microcontroller will usually be written in an IDE (integrated development environment) or a text editor."
+    sleep 4
+    puts "---------------------------------"
+    puts "Quiz Time!"
+    puts "---------------------------------"
+    puts "What do microcontrollers tranfer electronic projects to?" 
+
+    answer1 = gets.chomp()
+
+    if answer1.downcase() == "software"
+        puts "Correct!"
+    else
+        puts "Incorrect! Microcontrollers help us by transferring things to software so we can write code for it."
+    end
+
+
+    puts "---------------------------------"
+    puts "What does open source mean? [A: Software that is not free/B: Software which we can view the code for online]?" 
+
+    answer2 = gets.chomp()
+
+    if answer2.downcase() == "B" 
+        puts "Correct!"
+        sleep 2
+    else
+        puts "Incorrect! Open source means that we can view the code for something online!"
+        sleep 4
+    end
+end
+
+def mod11()
+    puts "---------------------------------"
+    puts "Multimeters"
+    puts "---------------------------------"
+    puts "Multimeters are electronic gadgets."
+    sleep 4
+    puts "They let us see the value of ohms, farads (for capacitors), ampere (current) and voltage."
+    sleep 4
+    puts "Some multimeters may be better than others."
+    sleep 4
+    puts "Multimeters come in two types: Auto Ranging and Manual Ranging."
+    sleep 4
+    puts "---------------------------------"
+    puts "Quiz Time!"
+    puts "---------------------------------"
+    puts "What can multimeters measure (in the order that was given)?" 
+
+    answer1 = gets.chomp()
+
+    if answer1.downcase() == "ohms, farads, ampere, voltage"
+        puts "Correct!"
+    else
+        puts "Incorrect! Multimeters can measure ohms, farads, ampere and voltage."
+    end
+
+
+    puts "---------------------------------"
+    puts "What are capacitors measured in?" 
+
+    answer2 = gets.chomp()
+
+    if answer2.downcase() == "farads" 
+        puts "Correct!"
+        sleep 2
+    else
+        puts "Incorrect! Capacitors are measured in farads!"
+        sleep 4
+    end
+end
+
 while true do
     puts "\n---------------------------------"
     puts "STEMe - The real way to learn"
@@ -310,7 +430,7 @@ while true do
 
     if option == "1"
         puts "---------------------------------"
-        puts "Showing Electronics Modules (2/11)"
+        puts "Showing Electronics Modules (9/11)"
         puts "---------------------------------"
         puts "Module 1 - AC & DC"
         sleep 0.5
