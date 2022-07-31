@@ -524,7 +524,7 @@ while true do
 
     if option == "1"
         puts "---------------------------------"
-        puts "Showing Electronics Modules (9/11)"
+        puts "Showing Electronics Modules (12/12)"
         puts "---------------------------------"
         puts "Module 1 - AC & DC"
         sleep 0.5
