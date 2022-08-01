@@ -583,5 +583,66 @@ while true do
         when "Quiz"
             quiz()
         end
+    elsif option == "2"
+        puts "---------------------------------"
+        puts "Web Design (0/12)"
+        puts "---------------------------------"
+        puts "Module 1 - HTML5 Basics"
+        sleep 0.5
+        puts "Module 2 - HTML5 Semantic Tags"
+        sleep 0.5
+        puts "Module 3 - HTML5 Buttons & Links"
+        sleep 0.5
+        puts "Module 4 - HTML5 Images"
+        sleep 0.5
+        puts "Module 5 - Lists"
+        sleep 0.5
+        puts "Module 6 - Classes & ID"
+        sleep 0.5
+        puts "Module 7 - CSS Basics"
+        sleep 0.5
+        puts "Module 8 - CSS Selectors"
+        sleep 0.5
+        puts "Module 9 - CSS Colours"
+        sleep 0.5
+        puts "Module 10 - Using a microcontroller"
+        sleep 0.5
+        puts "Module 11 - Capacitors"
+        sleep 0.5
+        puts "Module 12 (Bonus) - Using a multimeter"
+        sleep 0.5
+        puts "Quiz - See how much you know!"
+
+        puts "\nChoose a module: "
+        moduleChosen = gets.chomp.to_i()
+
+        case moduleChosen
+        when 1
+            mod1()
+        when 2
+            mod2()
+        when 3
+            mod3()
+        when 4
+            mod4()
+        when 5
+            mod5()
+        when 6
+            mod6()
+        when 7
+            mod7()
+        when 8
+            mod8()
+        when 9
+            mod9()
+        when 10
+            mod10()
+        when 11
+            mod11()
+        when 12
+            mod12()
+        when "Quiz"
+            quiz()
+        end
     end
 end
