@@ -605,11 +605,9 @@ while true do
         sleep 0.5
         puts "Module 9 - CSS Colours"
         sleep 0.5
-        puts "Module 10 - Using a microcontroller"
+        puts "Module 10 - CSS :hover()"
         sleep 0.5
-        puts "Module 11 - Capacitors"
-        sleep 0.5
-        puts "Module 12 (Bonus) - Using a multimeter"
+        puts "Module 11 - CSS Animations"
         sleep 0.5
         puts "Quiz - See how much you know!"
 
@@ -639,8 +637,6 @@ while true do
             mod10()
         when 11
             mod11()
-        when 12
-            mod12()
         when "Quiz"
             quiz()
         end
