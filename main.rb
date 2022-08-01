@@ -877,7 +877,7 @@ end
 
 while true do
     puts "\n---------------------------------"
-    puts "STEMe - The real way to learn"
+    puts "\e[44mSTEMe - The \e[45mreal\e[44m way to learn\e[0m"
     puts "---------------------------------"
     puts "1) Electronics\n2) Web Design (Working on it!)\n"
     puts "---------------------------------"
@@ -886,7 +886,7 @@ while true do
 
     if option == "1"
         puts "---------------------------------"
-        puts "Showing Electronics Modules (12/12)"
+        puts "\e[44mShowing Electronics Modules (12/12)\e[0m"
         puts "---------------------------------"
         puts "Module 1 - AC & DC"
         sleep 0.5
@@ -914,7 +914,7 @@ while true do
         sleep 0.5
         puts "Quiz - See how much you know!"
 
-        puts "\nChoose a module: "
+        puts "\n\e[45mChoose a module:\e[0m "
         moduleChosen = gets.chomp.to_i()
 
         case moduleChosen
@@ -947,7 +947,7 @@ while true do
         end
     elsif option == "2"
         puts "---------------------------------"
-        puts "Web Design (9/11)"
+        puts "\e[44mWeb Design (11/11)\e[0m"
         puts "---------------------------------"
         puts "Module 1 - HTML5 Basics"
         sleep 0.5
@@ -971,7 +971,7 @@ while true do
         sleep 0.5
         puts "Quiz - See how much you know!"
 
-        puts "\nChoose a module: "
+        puts "\n\e[45mChoose a module:\e[0m"
         moduleChosen2 = gets.chomp.to_i()
 
         case moduleChosen2
