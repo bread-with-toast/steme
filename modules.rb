@@ -1,6 +1,6 @@
 def mod1()
     puts "---------------------------------"
-    puts "AC & DC"
+    puts "\033[44;1mAC & DC\033[0m"
     puts "---------------------------------"
     puts "Alternating current (also known as AC) is a type of current which switches directions many times a second."
     sleep 4
@@ -26,7 +26,7 @@ end
 
 def mod2()
     puts "---------------------------------"
-    puts "Breadboards"
+    puts "\033[45;1mBreadboards\033[0m"
     puts "---------------------------------"
     puts "Breadboards are electronic components used for prototyping."
     sleep 4
@@ -52,7 +52,7 @@ end
 
 def mod3()
     puts "---------------------------------"
-    puts "Resistors"
+    puts "\033[41;1mResistors\033[0m"
     puts "---------------------------------"
     puts "Resistors are components which protect electronic components."
     sleep 4
@@ -91,7 +91,7 @@ end
 
 def mod4()
     puts "---------------------------------"
-    puts "Ohms Law"
+    puts "\033[46;1mOhms Law\033[om"
     puts "---------------------------------"
     puts "We can use ohms law to calculate voltage, current and resistance."
     sleep 4
@@ -130,7 +130,7 @@ end
 
 def mod5()
     puts "---------------------------------"
-    puts "LEDs"
+    puts "\033[45;1mLEDs\033[0m"
     puts "---------------------------------"
     puts "LED stands for Light Emitting Diode."
     sleep 4
@@ -169,7 +169,7 @@ end
 
 def mod6()
     puts "---------------------------------"
-    puts "Buzzers"
+    puts "\033[41;1mBuzzers\033[0m"
     puts "---------------------------------"
     puts "Buzzers create a noise."
     sleep 4
@@ -208,7 +208,7 @@ end
 
 def mod7()
     puts "---------------------------------"
-    puts "Buttons & Switches"
+    puts "\033[44;1mButtons & Switches\033[0m"
     puts "---------------------------------"
     puts "When a voltage travels through a button, the component connected to it will recieve that voltaege and it will turn on."
     sleep 4
@@ -247,7 +247,7 @@ end
 
 def mod8()
     puts "---------------------------------"
-    puts "Sensors"
+    puts "\033[43;1mSensors\033[0m"
     puts "---------------------------------"
     puts "Sensors take input from the world."
     sleep 4
@@ -301,7 +301,7 @@ end
 
 def mod9()
     puts "---------------------------------"
-    puts "Integrated Circuits"
+    puts "\033[46;1mIntegrated Circuits\033[0m"
     puts "---------------------------------"
     puts "There are many types of integrated circuits."
     sleep 4
@@ -341,7 +341,7 @@ end
 
 def mod10()
     puts "---------------------------------"
-    puts "Microcontrollers"
+    puts "\033[41m;1mMicrocontrollers\033[0m"
     puts "---------------------------------"
     puts "Microcontrollers allow us to make electronics projects easier by transferring most things to software."
     sleep 4
@@ -381,7 +381,7 @@ end
 
 def mod12()
     puts "---------------------------------"
-    puts "Multimeters"
+    puts "\033[45;1mMultimeters\033[0m"
     puts "---------------------------------"
     puts "Multimeters are electronic gadgets."
     sleep 4
@@ -421,7 +421,7 @@ end
 
 def mod11()
     puts "---------------------------------"
-    puts "Capacitors"
+    puts "\033[44;1mCapacitors\033[0m"
     puts "---------------------------------"
     puts "Capacitors are electronic gadgets used to store electrical energy."
     sleep 4
@@ -447,7 +447,7 @@ end
 
 def quiz()
     puts "---------------------------------"
-    puts "Quiz Time!"
+    puts "\033[44;1mQuiz Time!\033[0m"
     puts "---------------------------------"
 
     # Question 1
@@ -515,7 +515,7 @@ end
 
 def mod1w()
     puts "---------------------------------"
-    puts "HTML5 Basics"
+    puts "\033[44;1mHTML5 Basics\033[0m"
     puts "---------------------------------"
     puts "HTML is an acronym for Hypertext Markup Language."
     sleep 4
@@ -541,7 +541,7 @@ end
 
 def mod2w()
     puts "---------------------------------"
-    puts "HTML5 Semantic Tags"
+    puts "\033[46;1mHTML5 Semantic Tags\033[0m"
     puts "---------------------------------"
     puts "HTML semantic tags describe the content inside of them."
     sleep 4
@@ -565,7 +565,7 @@ end
 
 def mod3w()
     puts "---------------------------------"
-    puts "HTML5 Buttons & Links"
+    puts "\033[45;1mHTML5 Buttons & Links\033[0m"
     puts "---------------------------------"
     puts "To define buttons in HTML, use the <button></button> tags."
     sleep 4
@@ -591,7 +591,7 @@ end
 
 def mod4w()
     puts "---------------------------------"
-    puts "HTML5 Images"
+    puts "\033[44;1mHTML5 Images\033[0m"
     puts "---------------------------------"
     puts "To make an image in HTML, use the <img> tag."
     sleep 4
@@ -615,7 +615,7 @@ end
 
 def mod5w()
     puts "---------------------------------"
-    puts "HTML5 Lists"
+    puts "\033[43;1mHTML5 Lists\033[0m"
     puts "---------------------------------"
     puts "There are two types of lists in HTML, ordered and unordered lists."
     sleep 4
@@ -652,7 +652,7 @@ end
 
 def mod6w()
     puts "---------------------------------"
-    puts "Classes & IDs"
+    puts "\033[41;1mClasses & IDs\033[0m"
     puts "---------------------------------"
     puts "To style our websites, we need to use CSS (covered in the next modules)."
     sleep 4
@@ -689,7 +689,7 @@ end
 
 def mod7w()
     puts "---------------------------------"
-    puts "CSS basics"
+    puts "\033[46;1mCSS basics\033[0m"
     puts "---------------------------------"
     puts "CSS stands for Cascading Style Sheet."
     sleep 4
@@ -724,7 +724,7 @@ end
 
 def mod8w()
     puts "---------------------------------"
-    puts "CSS colours"
+    puts "\033[45;1mCSS colours\033[0m"
     puts "---------------------------------"
     puts "We can use colours in CSS to add colours to elements."
     sleep 4
@@ -759,7 +759,7 @@ end
 
 def mod9w()
     puts "---------------------------------"
-    puts "CSS :hover()"
+    puts "\033[41;1mCSS :hover()\033[0m"
     puts "---------------------------------"
     puts "The :hover() selector in CSS is known as a pseudoselector."
     sleep 4
@@ -781,7 +781,7 @@ end
 
 def mod10w()
     puts "---------------------------------"
-    puts "CSS Animations"
+    puts "\033[46;1mCSS Animations\033[0m"
     puts "---------------------------------"
     puts "We can use CSS animations to add an animation."
     sleep 4
@@ -809,7 +809,7 @@ end
 
 def quizw()
     puts "---------------------------------"
-    puts "Quiz Time!"
+    puts "\033[45;1mQuiz Time!\033[0m"
     puts "---------------------------------"
 
     # Question 1
