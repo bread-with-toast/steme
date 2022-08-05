@@ -1,10 +1,10 @@
 require "./modules.rb"
 
 while true do
-    puts "\n---------------------------------"
+    puts "---------------------------------"
     puts "\033[44mSTEMe - The \033[45;1mreal\033[44m way to learn\033[0m"
     puts "---------------------------------"
-    puts "1) Electronics\n2) Web Design\n"
+    puts "1) Electronics\n2) Web Design\n3) Acess Your Day Streak\n"
     puts "---------------------------------"
 
     option = gets.chomp()
@@ -123,5 +123,7 @@ while true do
         when 11
             quizw()
         end
+    elsif option == "3"
+        third_option()
     end
 end
