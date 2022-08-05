@@ -881,16 +881,22 @@ def third_option()
         day_streak_value = day_streak.read()
 
         puts "\033[44;1mYour Current Day Streak Is\033[0m:", day_streak_value, "!"
-        puts "Press Enter To Add Another Day"
+        puts "Press A To Add Another Day\nPress R To Reset Your Day Streak"
 
         increase = gets.chomp()
 
-        day_streak_value = day_streak_value.to_i() + 1
-        day_streak.rewind()
+        if increase == "A"
+            day_streak_value = day_streak_value.to_i() + 1
+            day_streak.rewind()
 
-        day_streak.print(day_streak_value.to_s())
+            day_streak.print(day_streak_value.to_s())
 
-        day_streak.close()
+            day_streak.close()
+        elsif increase == "R"
+            day_streak.rewind()
+            day_streak.print("            ")
+            day_streak.close()
+        end
    else 
         day_streak = File.new("day_streak.txt", "w+")
         day_streak.print(0.to_s())
