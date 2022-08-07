@@ -665,7 +665,7 @@ def mod5w()
 
     answer2 = gets.chomp()
 
-    if answer2.downcase() == "N"
+    if answer2.downcase() == "n"
         puts "Correct!"
     else
         puts "Incorrect! Unordered lists have no order so they use bullet points."
@@ -772,7 +772,7 @@ def mod8w()
 
     answer2 = gets.chomp()
 
-    if answer2.downcase() == "N"
+    if answer2.downcase() == "n"
         puts "Correct!"
     else
         puts "Incorrect! We can use the background-color: style to add a background colour."
