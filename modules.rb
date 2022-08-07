@@ -927,3 +927,4 @@ def third_option()
         day_streak.close()
    end
 end
+

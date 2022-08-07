@@ -26,7 +26,7 @@ while true do
     puts "---------------------------------"
     puts "\033[44mSTEMe - The \033[45;1mreal\033[44m way to learn\033[0m"
     puts "---------------------------------"
-    puts "1) Electronics\n2) Web Design\n3) Access Your Day Streak\n"
+    puts "1) Electronics\n2) Web Design\n3) Access Your Day Streak\n4) Lua Scripting\n"
     puts "---------------------------------"
 
     option = gets.chomp()
@@ -147,5 +147,47 @@ while true do
         end
     elsif option == "3"
         third_option()
+    elsif option == "4"
+        puts "---------------------------------"
+        puts "\033[44;1mLua Scripting (0/8)\033[0m"
+        puts "---------------------------------"
+        puts "Module 1 - Printing To The Terminal"
+        sleep 0.5
+        puts "Module 2 - Variables"
+        sleep 0.5
+        puts "Module 3 - Tables"
+        sleep 0.5
+        puts "Module 4 - Functions"
+        sleep 0.5
+        puts "Module 5 - Adding Colours"
+        sleep 0.5
+        puts "Module 6 - Modules"
+        sleep 0.5
+        puts "Module 7 - Return VS Print"
+        sleep 0.5
+        puts "Module 8 - Making A Calculator With Functions"
+
+        puts "\n\033[45mChoose a module:\033[0m"
+        moduleChosen3 = gets.chomp.to_i()
+
+        case moduleChosen3
+        when 1
+            mod1w()
+        when 2
+            mod2w()
+        when 3
+            mod3w()
+        when 4
+            mod4w()
+        when 5
+            mod5w()
+        when 6
+            mod6w()
+        when 7
+            mod7w()
+        when 8
+            mod8w()
+        end
+        
     end
 end
