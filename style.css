@@ -47,3 +47,16 @@ nav {
     border-radius: 8px;
     width: 100%
 }
+
+.content {
+    margin-left: 40%;
+    margin-top: 8%;
+}
+
+ul {
+    margin-left: 2%;
+}
+
+.download {
+    margin-left: 4%;
+}
