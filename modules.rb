@@ -928,3 +928,217 @@ def third_option()
    end
 end
 
+def mod1l()
+    puts "---------------------------------"
+    puts "\033[42;1mPrinting To The Terminal\033[0m"
+    puts "---------------------------------"
+    puts "In Lua, we can print text to the terminal in two different ways."
+    sleep 4
+    puts "We can use io.write()."
+    sleep 4
+    puts "Or we can utilise the print() function."
+    sleep 4
+    puts "Printing to the terminal allows us to debug things and make applications like this one!"
+    sleep 4
+    puts "---------------------------------"
+    puts "Quiz Time!"
+    puts "---------------------------------"
+    puts "How many functions are there to print to the terminal (in words)?" 
+
+    answer = gets.chomp()
+
+    if answer.downcase() == "two" 
+        puts "Correct!"
+    else
+        puts "Incorrect! There are two different ways of printing to the terminal in Lua."
+    end
+end
+
+def mod2l()
+    puts "---------------------------------"
+    puts "\033[45;1mVariables\033[0m"
+    puts "---------------------------------"
+    puts "In Lua, we can store data with variables."
+    sleep 4
+    puts "You can imagine variables as boxes with things inside of them and a label.."
+    sleep 4
+    puts "To define a variable in Lua, first define the name of it then follow it by an equals sign."
+    sleep 4
+    puts "After that, append the value of the variable."
+    sleep 4
+    puts "There are also different types of variabels."
+    sleep 3
+    puts "Words (strings) can be defined with double quotes ('')."
+    sleep 4
+    puts "Numbers do not need any special syntax."
+    sleep 4
+    puts "---------------------------------"
+    puts "Quiz Time!"
+    puts "---------------------------------"
+    puts "Do numbers need any special syntax [Y/N]?" 
+
+    answer = gets.chomp()
+
+    if answer.downcase() == "n" 
+        puts "Correct!"
+    else
+        puts "Incorrect! Numbers do not need to have any special characters unlike strings."
+    end
+end
+
+def mod3l()
+    puts "---------------------------------"
+    puts "\033[44;1mTables\033[0m"
+    puts "---------------------------------"
+    puts "If you are an experienced programmer, you may have learnt about concepts such as object oriented programming."
+    sleep 4
+    puts "Lua does not have such support for OOP."
+    sleep 4
+    puts "However, anything imaginable can be done with tables."
+    sleep 4
+    puts "Define a table like a variable, but instead of just one value, use curly braces ({})."
+    sleep 4
+    puts "Inside of these curly braces, you can put whatever values you want seperated by a comma."
+    sleep 4
+    puts "To get a value from a table, use the syntax: <table_name>[<index>]"
+    sleep 4
+    puts "Surprisingly, indexes in Lua do not start at 0. They start at 1."
+    sleep 4
+    puts "---------------------------------"
+    puts "Quiz Time!"
+    puts "---------------------------------"
+    puts "What number do indexes start at in Lua?" 
+
+    answer = gets.chomp()
+
+    if answer.downcase() == "1" 
+        puts "Correct!"
+    else
+        puts "Incorrect! Indexes, unlike other languages, start at 1."
+    end
+end
+
+def mod4l()
+    puts "---------------------------------"
+    puts "\033[43;1mFunctions\033[0m"
+    puts "---------------------------------"
+    puts "Functions in Lua can be used to split up code."
+    sleep 4
+    puts "This program, STEMe, uses functions, however, in a different programming language."
+    sleep 4
+    puts "Functions can be defined with the function keyword."
+    sleep 4
+    puts "Following the function keyword, write the name of your function; for example: function hello(). Make sure to include the parenthesis."
+    sleep 7
+    puts "In the parenthesis, put any variables you want to be used. Then, in the function, put the code you want."
+    sleep 4
+    puts "Call the function by using your function's name followed by parenthesis."
+    sleep 4
+    puts "In the parenthesis, put in any variables you defined when you defined the function."
+    sleep 4
+    puts "---------------------------------"
+    puts "Quiz Time!"
+    puts "---------------------------------"
+    puts "What keyword is used to define functions?" 
+
+    answer = gets.chomp()
+
+    if answer.downcase() == "function" 
+        puts "Correct!"
+    else
+        puts "Incorrect! The function keyword is used to define functions."
+    end
+end
+
+def mo5l()
+    puts "---------------------------------"
+    puts "\033[41;1mAdding Colours\033[0m"
+    puts "---------------------------------"
+    puts "This program uses colours to make the app more colourful and less dull."
+    sleep 4
+    puts "We can use a backward slash followed by x1b. Then, add the [ symbol to define the parameters. "
+    sleep 4
+    puts "The number 4 defines a background colour. The number 3 defines a foreground."
+    sleep 4
+    puts "Use a semicolon to seperate the parameters."
+    sleep 4
+    puts "Finally, end it with the letter m."
+    sleep 4
+    puts "Use different colours by using 31, 42, 33 etc."
+    sleep 4
+    puts "---------------------------------"
+    puts "Quiz Time!"
+    puts "---------------------------------"
+    puts "What number is used for background colours?" 
+
+    answer = gets.chomp()
+
+    if answer.downcase() == "4" 
+        puts "Correct!"
+    else
+        puts "Incorrect! The number 4 is used to define a background colour."
+    end
+
+    puts "---------------------------------"
+    puts "What is the symbol used to seperate parameters for colours?" 
+
+    answer2 = gets.chomp()
+
+    if answer2.downcase() == ";"  or answer2.downcase() == "semi-colon"
+        puts "Correct!"
+    else
+        puts "Incorrect! A semi-colon is used to define different parameters."
+    end
+end
+
+def mod6l()
+    puts "---------------------------------"
+    puts "\033[43;1mModules\033[0m"
+    puts "---------------------------------"
+    puts "To make code easier to read, we can use modules."
+    sleep 4
+    puts "Define a module like a table."
+    sleep 4
+    puts "Then, when defining a function, use the syntax function <table_name>.<function_name>()."
+    sleep 4
+    puts "Then, at the end of your code, use the syntax return <table_name>."
+    sleep 4
+    puts "Finally, in a new file, use the syntax require '<file_name_without_extension>'."
+    sleep 4
+    puts "Make sure to call a function by first using the name of the table."
+    sleep 4
+    puts "---------------------------------"
+    puts "Quiz Time!"
+    puts "---------------------------------"
+    puts "Do you have to return the table at the end of your module file [Y/N]?" 
+
+    answer = gets.chomp()
+
+    if answer.downcase() == "y" 
+        puts "Correct!"
+    else
+        puts "Incorrect! You must return the table which contains the functions."
+    end
+end
+
+def mod7l()
+    puts "---------------------------------"
+    puts "\033[43;1mReturn VS Print\033[0m"
+    puts "---------------------------------"
+    puts "When using functions, you may come across the return keyword."
+    sleep 4
+    puts "The return keyword only returns a value, you can imagine it like printing but without actually printing a value."
+    sleep 4
+end
+
+def mod13()
+    puts "---------------------------------"
+    puts "\033[44;1mSchematic\033[0m"
+    puts "---------------------------------"
+    puts "Schematics are pictures which show how to connect electronics."
+    sleep 4
+    puts "Once you learn all of the schematic symbols, you are able to create tons of different circuits."
+    sleep 4
+    puts "It may take some time to learn such symbols and you may need to use the Internet for help."
+    sleep 4
+end

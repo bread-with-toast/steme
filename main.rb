@@ -33,7 +33,7 @@ while true do
 
     if option == "1"
         puts "---------------------------------"
-        puts "\033[44;1mShowing Electronics Modules (12/12)\033[0m"
+        puts "\033[44;1mShowing Electronics Modules (13/13)\033[0m"
         puts "---------------------------------"
         puts "Module 1 - AC & DC"
         sleep 0.5
@@ -59,7 +59,9 @@ while true do
         sleep 0.5
         puts "Module 12 (Bonus) - Using a multimeter"
         sleep 0.5
-        puts "Module 13 - Quiz (See how much you know!)"
+        puts "Module 13 (Bonus) - Schematics"
+        sleep 0.5
+        puts "Module 14 - Quiz (See how much you know!)"
 
         puts "\n\033[45mChoose a module:\033[0m "
         moduleChosen = gets.chomp.to_i()
@@ -90,6 +92,8 @@ while true do
         when 12
             mod12()
         when 13
+            mod13()
+        when 14
             quiz()
         end
     elsif option == "2"
@@ -149,7 +153,7 @@ while true do
         third_option()
     elsif option == "4"
         puts "---------------------------------"
-        puts "\033[44;1mLua Scripting (0/8)\033[0m"
+        puts "\033[44;1mLua Scripting (7/7)\033[0m"
         puts "---------------------------------"
         puts "Module 1 - Printing To The Terminal"
         sleep 0.5
@@ -164,30 +168,25 @@ while true do
         puts "Module 6 - Modules"
         sleep 0.5
         puts "Module 7 - Return VS Print"
-        sleep 0.5
-        puts "Module 8 - Making A Calculator With Functions"
 
         puts "\n\033[45mChoose a module:\033[0m"
         moduleChosen3 = gets.chomp.to_i()
 
         case moduleChosen3
         when 1
-            mod1w()
+            mod1l()
         when 2
-            mod2w()
+            mod2l()
         when 3
-            mod3w()
+            mod3l()
         when 4
-            mod4w()
+            mod4l()
         when 5
-            mod5w()
+            mod5l()
         when 6
-            mod6w()
+            mod6l()
         when 7
-            mod7w()
-        when 8
-            mod8w()
+            mod7l()
         end
-        
     end
 end
