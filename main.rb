@@ -33,7 +33,7 @@ while true do
 
     if option == "1"
         puts "---------------------------------"
-        puts "\033[44;1mShowing Electronics Modules (13/13)\033[0m"
+        puts "\033[44;1mShowing Electronics Modules (15/15)\033[0m"
         puts "---------------------------------"
         puts "Module 1 - AC & DC"
         sleep 0.5
@@ -62,6 +62,8 @@ while true do
         puts "Module 13 (Bonus) - Schematics"
         sleep 0.5
         puts "Module 14 - Quiz (See how much you know!)"
+        sleep 0.5
+        puts "Module 15 - Glossary"
 
         puts "\n\033[45mChoose a module:\033[0m "
         moduleChosen = gets.chomp.to_i()
@@ -95,10 +97,12 @@ while true do
             mod13()
         when 14
             quiz()
+        when 15
+            glossaryE()
         end
     elsif option == "2"
         puts "---------------------------------"
-        puts "\033[44;1mWeb Design (11/11)\033[0m"
+        puts "\033[44;1mWeb Design (12/12)\033[0m"
         puts "---------------------------------"
         puts "Module 1 - HTML5 Basics"
         sleep 0.5
@@ -121,6 +125,8 @@ while true do
         puts "Module 10 - CSS Animations"
         sleep 0.5
         puts "Module 11 - Quiz (See how much you know!)"
+        sleep 0.5
+        puts "Module 12 - Glossary"
 
         puts "\n\033[45mChoose a module:\033[0m"
         moduleChosen2 = gets.chomp.to_i()
@@ -148,6 +154,8 @@ while true do
             mod10w()
         when 11
             quizw()
+        when 12
+            glossaryW()
         end
     elsif option == "3"
         third_option()
@@ -168,6 +176,8 @@ while true do
         puts "Module 6 - Modules"
         sleep 0.5
         puts "Module 7 - Return VS Print"
+        sleep 0.5
+        puts "Module 8 - Glossary"
 
         puts "\n\033[45mChoose a module:\033[0m"
         moduleChosen3 = gets.chomp.to_i()
@@ -187,6 +197,8 @@ while true do
             mod6l()
         when 7
             mod7l()
+        when 8
+            glossaryL()
         end
     end
 end

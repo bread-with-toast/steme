@@ -49,14 +49,5 @@ nav {
 }
 
 .content {
-    margin-left: 40%;
-    margin-top: 8%;
-}
-
-ul {
-    margin-left: 2%;
-}
-
-.download {
-    margin-left: 4%;
+    text-align: center;
 }

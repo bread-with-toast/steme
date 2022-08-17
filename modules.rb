@@ -1133,7 +1133,7 @@ end
 
 def mod13()
     puts "---------------------------------"
-    puts "\033[44;1mSchematic\033[0m"
+    puts "\033[44;1mSchematics\033[0m"
     puts "---------------------------------"
     puts "Schematics are pictures which show how to connect electronics."
     sleep 4
@@ -1141,4 +1141,47 @@ def mod13()
     sleep 4
     puts "It may take some time to learn such symbols and you may need to use the Internet for help."
     sleep 4
+end
+
+def glossaryE()
+    puts "---------------------------------"
+    puts "\033[45;1mElectronics Glossary\033[0m"
+    puts "---------------------------------"
+    puts "LED - A diode which emits light"
+    puts "Capacitor - A component which retains electrical energy and releases it"
+    puts "Resistor - A component which limits the amount of current, measured in ohms"
+    puts "Breadboard - An electronic component used for prototyping"
+    puts "Sensor - A component which gathers input from the world"
+    puts "Wire - A component which allows current to flow"
+    puts "AC - Current which alternates in direction many times a second"
+    puts "DC - Current which flows in one direction"
+    puts "Diode - An electronic component which allows current to travel through it"
+    puts "Schematic - A drawing which shows how electronics in a circuit are meant to be connected"
+    sleep 10
+end
+
+def glossaryW()
+    puts "---------------------------------"
+    puts "\033[44;1mWeb Design Glossary\033[0m"
+    puts "---------------------------------"
+    puts "HTML - A markup language used to display text, images and other media"
+    puts "CSS - A styling language used to style web pages"
+    puts "Class - An attribute in HTML used to refer to more than 1 element."
+    puts "ID - An attribute in HTML used to refer to 1 element only."
+    sleep 4
+end
+
+def glossaryL()
+    puts "---------------------------------"
+    puts "\033[43;1mLua Glossary\033[0m"
+    puts "---------------------------------"
+    puts "Interpreted - A language which uses an interpreter"
+    puts "Interpreter - A process which read code line-by-line to run it"
+    puts "Compiled - A language which uses a compiler"
+    puts "Compiler - A process which read all of the code and runs it, compilers are usually much faster"
+    puts "Variable - A concept used to store data"
+    puts "OOP - Object Oriented Programming"
+    puts "Table - A data type in Lua, used to store many elements"
+    puts "Function - A block of code which can be called"
+    sleep 7
 end
